@@ -7,6 +7,8 @@ module.exports = {
         'mygrey': '#F2F2F2',
         'btngrey': '#4E4E4E',
         'textplace': '#6A6A6A',
+        'textpurple': '#221E41',
+        'lightpurple': '#6937FF'
       },
       fontFamily: {
         inter: ['Inter']
@@ -14,7 +16,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      textColor: ['hover', 'visited'],
+    },
   },
   plugins: [],
 }

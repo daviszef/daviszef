@@ -1,15 +1,16 @@
 import React from 'react'
-import {Link, animateScroll as scroll} from 'react-scroll'
+import {animateScroll as scroll} from 'react-scroll'
 
 const Header = () => {
     return (
-        <div className="w-screen flex justify-center pt-10 fixed bg-mygrey pb-5">
-            <div className="flex justify-between w-2/3 md:w-2/6 md:flex md:justify-between">
-                <a className="font-inter font-medium" onClick={()=>scroll.scrollToTop()} >Home</a>
-                <a className="font-inter font-medium" onClick={()=>scroll.scrollTo(360)}>About</a>
-                <Link className="font-inter font-medium" onClick={()=>scroll.scrollTo(820)}>Project</Link>
-                <Link className="font-inter font-medium" to="contact" smooth={true} duration={1000}>Contact</Link>
+        <div className="w-screen flex justify-center items-center fixed bg-mygrey h-16">
+            <div className="flex justify-between w-2/3 md:w-3/12 md:flex md:justify-between">
+                <a href="#home" className="font-inter font-medium text-center cursor-pointer  hover:text-purple-600 visited:text-purple-600" onClick={()=>scroll.scrollToTop()} >Home</a>
+                <a href="#about" className="font-inter font-medium text-center cursor-pointer hover:text-purple-600  " onClick={()=>scroll.scrollTo(370)}>About</a>
+                <a href="#project" className="font-inter font-medium text-center cursor-pointer hover:text-purple-600" onClick={()=>scroll.scrollTo(880)}>Project</a>
+                <a href="#contact" className="font-inter font-medium text-center cursor-pointer hover:text-purple-600" onClick={()=>scroll.scrollTo(1800)}>Contact</a>
             </div>
+            
         </div>
     )
 }
