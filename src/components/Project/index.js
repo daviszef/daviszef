@@ -13,9 +13,11 @@ const Project = () => {
                 </div>
                 
                 <div className="grid gap-7 grid-cols-1 lg:grid-cols-2 mt-7">
-                    <a href="https://dribbble.com/daviszef" className="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"> 
-                        <img  src={Forum} alt="imgproject" className="w-full h-full rounded-xl bg-white object-cover"></img>
-                    </a>
+                    <div className="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+                        <a href="https://dribbble.com/daviszef" > 
+                            <img  src={Forum} alt="imgproject" className="w-full h-full rounded-xl bg-white object-cover"></img>
+                        </a>
+                    </div>
                     <a href="https://dribbble.com/daviszef" className="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
                         <img  src={Gowes} alt="imgproject" className="w-full h-full rounded-xl bg-white object-cover"></img>
                     </a>

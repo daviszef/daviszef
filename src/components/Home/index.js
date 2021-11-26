@@ -11,22 +11,26 @@ const Home = () => {
                 </div>
                 <div>
                     <div>
-                        <p className="font-inter font-bold text-xl">HELLO</p>
+                        <p className="font-inter font-bold text-2xl">HELLO</p>
                     </div>
                     <div>
-                        <p className="font-inter font-bold text-4xl py-2">I'M DAVIS</p>
+                        <p className="font-inter font-bold text-5xl py-2">I'M DAVIS</p>
                     </div>
                     <div>
-                        <p className="font-inter font-normal text-base">
-                            Im a  UI/UX Designer, and Front End Dev. I like prototyping, it helps me think <br/>
+                        {/* <p className="font-inter font-normal text-base">
+                            Im a  UI/UX Designer, and Frontend Dev based in Jakarta. I like prototyping, it helps me think <br/>
                             through interaction models and new possibilities. I love making an actual<br/> 
                             impact on what I do.
+                        </p> */}
+                        <p className="font-inter font-normal text-base">
+                            I'm a Front-End Engineer based in Jakarta with foucus on React Framework.<br/>
+                            Interested in design, specially UI/UX design and Prototyping<br/> 
                         </p>
                     </div>
 
                     <div className="flex flex-row pt-7">
-                        <Link className="transition duration-500 ease-in-out font-inter font-medium text-lg cursor-pointer hover:text-indigo-600 transform hover:-translate-y-1 hover:scale-105" to="contact" smooth={true} duration={1000}>Contact Here</Link>
-                        <p className="animate-bounce">👈</p>
+                        <Link className="transition duration-500 ease-in-out font-inter font-medium text-lg cursor-pointer hover:text-indigo-600 transform hover:-translate-y-1 hover:scale-105" to="contact" smooth={true} duration={1000}>Contact Me</Link>
+                        <p className="animate-bounce ml-1">👈</p>
                     </div>
                 </div>
                 
