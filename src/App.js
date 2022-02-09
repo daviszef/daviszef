@@ -15,8 +15,8 @@ function App() {
       </MetaTags> */}
       <Header />
       <Home />
-      <About />
       <Project />
+      {/* <About /> */}
       <Contact />
       
     </div>

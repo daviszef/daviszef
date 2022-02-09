@@ -5,7 +5,7 @@ import {Link} from 'react-scroll'
 const Home = () => {
     return (
         <div className="sm:container sm:mx-auto md:flex flex justify-center">
-            <div className="w-3/4 flex flex-col justify-center items-center md:flex md:flex-row-reverse md:justify-between pb-20 pt-32">
+            <div className="w-3/4 flex flex-col justify-center items-center md:flex md:flex-row-reverse md:justify-between pb-20 pt-10">
                 <div className="mb-10 lg:mb-0">
                     <img className="w-56 h-56 object-cover rounded-full" src={DavisPic} alt="imageHome"></img>
                 </div>
@@ -23,8 +23,8 @@ const Home = () => {
                             impact on what I do.
                         </p> */}
                         <p className="font-inter font-normal text-base">
-                            I'm a Front-End Engineer based in Jakarta with foucus on React Framework.<br/>
-                            Interested in design, specially UI/UX design and Prototyping<br/> 
+                            I'm a UX Designer based in Jakarta.<br/>
+                            I love Research, Wireframing, and Prototyping<br/> 
                         </p>
                     </div>
 
