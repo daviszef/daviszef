@@ -15,7 +15,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_pf1bwkq', 'template_0bye508', form.current, 'user_KhNM04ZOpehYYCnqPMIAi')
+        emailjs.sendForm('service_05khksv', 'template_0bye508', form.current, 'user_KhNM04ZOpehYYCnqPMIAi')
             .then((result) => {
                 openModal();
                 setTimeout(() => {setShowModal(false);},3500)
