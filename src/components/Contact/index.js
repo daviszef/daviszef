@@ -28,12 +28,12 @@ const Contact = () => {
         setShowModal(prev => !prev);       
     }   
 
-    const clearInput = () => {
-        name.current.value = "";
-        email.current.value = "";
-        subject.current.value = "";
-        message.current.value = "";
-    }
+    // const clearInput = () => {
+    //     name.current.value = "";
+    //     email.current.value = "";
+    //     subject.current.value = "";
+    //     message.current.value = "";
+    // }
 
     return (
         <div className="w-screen h-auto flex justify-center items-center pb-20" id="contact">
@@ -62,7 +62,7 @@ const Contact = () => {
                                 py-2 px-3 focus:outline-none focus:ring-2 focus:ring-purple-700 placeholder-textplace font-inter font-medium mb-3 resize-none opacity-60" />
                                 <div className="w-full flex justify-center">
 
-                                    <button onClick={clearInput} type="submit" value="Send" className="flex justify-center items-center w-24 h-10 color bg-gradient-to-r from-indigo-400 to-pink-400 rounded-full cursor-pointer hover:from-pink-500 hover:to-yellow-500">
+                                    <button type="submit" value="Send" className="flex justify-center items-center w-24 h-10 color bg-gradient-to-r from-indigo-400 to-pink-400 rounded-full cursor-pointer hover:from-pink-500 hover:to-yellow-500">
                                         <div className="font-semibold font-inter color text-white">Send</div>
                                     </button>
                                 </div>
