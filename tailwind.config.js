@@ -46,7 +46,9 @@ module.exports = {
         'lightpurple': '#6937FF'
       },
       fontFamily: {
-        inter: ['Inter']
+        inter: ['Inter'],
+        karla: ['Karla'],
+        syne: ['Syne']
       }
     },
   },

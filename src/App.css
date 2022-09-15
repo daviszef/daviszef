@@ -43,7 +43,8 @@
   padding: 0px;
   margin: 0px;
   overflow-x: hidden;
-  background: linear-gradient(to right top, #ffffff, #eefeff);
+  background: #000000;
+  /* background: linear-gradient(to right top, #ffffff, #eefeff); */
 }
 
 .glass {

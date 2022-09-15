@@ -5,7 +5,7 @@ import { Gowes, Class, Cinema, Manca } from '../../assets'
 const Project = () => {
     return (
         <div className="md:container md:mx-auto flex justify-center" id="project">
-            <div className="flex flex-col w-11/12 mb-20">
+            <div className="flex flex-col w-11/12 mb-32">
 
                 {/* <div className=" flex flex-col justify-center items-center">
                     <p className="font-inter font-bold text-3xl pt-10 pb-6">Projects</p>

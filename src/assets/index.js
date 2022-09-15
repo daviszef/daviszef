@@ -7,6 +7,6 @@ import Maybank from './maybank.png'
 import Mern from './mern.png'
 import Agree from './agree.png'
 import Manca from './manca.png'
-import Logo from './daviszeflogo.png'
+import Logo from './daviszeflogo2.png'
 
 export {Gowes, Forum, Class, Cinema, DavisPic, Maybank, Mern, Agree, Manca, Logo}
